@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+lead_queue.json
+*.local.json
+.DS_Store
+Thumbs.db

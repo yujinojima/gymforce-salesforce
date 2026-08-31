@@ -1,0 +1,282 @@
+{
+  "name": "POSR Add Multiple Between Referrals",
+  "countdown_seconds": 5,
+  "default_pause_seconds": 0.12,
+  "queue_mode": "all_pending",
+  "variables": [
+    {
+      "name": "first_name",
+      "label": "First name"
+    },
+    {
+      "name": "last_name",
+      "label": "Last name"
+    },
+    {
+      "name": "phone_number",
+      "label": "Number"
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "value": "qv plat"
+    },
+    {
+      "type": "wait",
+      "seconds": 0.5
+    },
+    {
+      "type": "press",
+      "key": "down"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "text",
+      "value": "{first_name}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "text",
+      "value": "{last_name}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "text",
+      "value": "{phone_number}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "press",
+      "key": "down"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "wait",
+      "seconds": 1.0
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    }
+  ],
+  "between_leads_steps": [
+    {
+      "type": "wait",
+      "seconds": 2.0
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },{
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "wait",
+      "seconds": 2.5
+    },{
+      "type": "press",
+      "key": "enter"
+    },    {
+      "type": "wait",
+      "seconds": 0.5
+    },
+    {
+      "type": "text",
+      "value": "."
+    },
+    {
+      "type": "wait",
+      "seconds": 0.5
+    },
+    {
+      "type": "press",
+      "key": "down"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "wait",
+      "seconds": 2.0
+    },    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    }
+  ],
+  "next_lead_steps": [
+    {
+      "type": "text",
+      "value": "{first_name}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "text",
+      "value": "{last_name}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "text",
+      "value": "{phone_number}"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "wait",
+      "seconds": 0.5
+    },
+    {
+      "type": "press",
+      "key": "down"
+    },
+    {
+      "type": "press",
+      "key": "enter"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+    {
+      "type": "press",
+      "key": "tab"
+    },
+
+    {
+      "type": "press",
+      "key": "tab"
+    },{
+      "type": "wait",
+      "seconds": 0.5
+    }
+  ]
+}

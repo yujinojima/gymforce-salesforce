@@ -1,0 +1,157 @@
+{
+  "name": "GymForce - YN MK1",
+  "countdown_seconds": 1,
+  "variables": [],
+  "interface": {
+    "layout": "calls_and_posr",
+    "logo": "fitness_first_logo.png",
+    "posr_procedure": "posr_add_multiple_between_referrals.json",
+    "posr_description": "Ask ChatGPT: Format the lead list as JSON using {firstname, lastname, phone number}."
+  },
+  "presets": [
+    {
+      "label": "No Pickup",
+      "steps": [
+        { "type": "text", "value": "no pickup" },
+        {
+          "type": "repeat",
+          "times": 7,
+          "steps": [
+            { "type": "press", "key": "tab" }
+          ]
+        },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "text", "value": "{date_plus_2}" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" }
+      ]
+    },
+    {
+      "label": "Left a Messege",
+      "steps": [
+        { "type": "text", "value": "left a message" },
+        {
+          "type": "repeat",
+          "times": 7,
+          "steps": [
+            { "type": "press", "key": "tab" }
+          ]
+        },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "text", "value": "{date_plus_2}" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" }
+      ]
+    },
+    {
+      "label": "Left an Email",
+      "steps": [
+        { "type": "text", "value": "left an email" },
+        {
+          "type": "repeat",
+          "times": 7,
+          "steps": [
+            { "type": "press", "key": "tab" }
+          ]
+        },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "text", "value": "{date_plus_2}" },
+        { "type": "wait", "seconds": 0.5 },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" }
+      ]
+    },
+    {
+      "label": "Disqualify Pickup",
+      "steps": [
+        { "type": "text", "value": "Disqualify - pickedup" },
+        {
+          "type": "repeat",
+          "times": 7,
+          "steps": [
+            { "type": "press", "key": "tab" }
+          ]
+        },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" }
+      ]
+    },
+    {
+      "label": "Disqualify No Pickup",
+      "steps": [
+        { "type": "text", "value": "Disqualify - no pickup" },
+        {
+          "type": "repeat",
+          "times": 7,
+          "steps": [
+            { "type": "press", "key": "tab" }
+          ]
+        },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "down" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "enter" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "tab" },
+        { "type": "press", "key": "enter" }
+      ]
+    }
+  ]
+}
